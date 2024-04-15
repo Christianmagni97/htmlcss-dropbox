@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 12px;
+} 
+header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+body {
+    font-family: 'Open Sans';
+}
+.LeftNav, .RightNav{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+#LogoSmall{
+    width: 200px;
+    height: auto;
+}
+#Touch{
+    background-color: #0061ff;
+    width: 80px;
+    height: 25px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.PropostaCliente{
+    height: 70vh;
+    background-color: #b4d0e7;
+}
+#Title-PropostaCliente{
+    font-size: 65px;
+    padding-top: 100px;
+    text-align: left;
+    margin-left: 26%;
+
+}
+#Subtitles-PropostaCliente, #Iniziainqualsiasimomento{
+    margin-left: 26%;
+    margin-top: 30px;
+}
+.Inizialaprovagratuita{
+    margin-top: 30px;
+    background-color: #0061ff;
+    width: 200px;
+    height: 25px;
+    border: none;
+    color: white;
+    margin-left: 26%;
+    text-align: center;
+}
+#Freccia{
+    margin-left: 26%;
+    margin-top: 10px;
+   font-size: 100px;
+}
+
+
