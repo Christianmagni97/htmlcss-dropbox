@@ -37,7 +37,7 @@ body {
     text-align: center;
 }
 .PropostaCliente{
-    height: 70vh;
+    height: 75vh;
     background-color: #b4d0e7;
 }
 #Title-PropostaCliente{
@@ -45,7 +45,6 @@ body {
     padding-top: 100px;
     text-align: left;
     margin-left: 26%;
-
 }
 #Subtitles-PropostaCliente, #Iniziainqualsiasimomento{
     margin-left: 26%;
@@ -63,8 +62,20 @@ body {
 }
 #Freccia{
     margin-left: 26%;
-    margin-top: 10px;
+    padding-top: 10px;
    font-size: 100px;
 }
+#ImmagineTitolo{
+    flex-direction: row;
+    width: 600px;
+    height: auto;
+    margin-left: 50%;
+}
+.Action{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 
