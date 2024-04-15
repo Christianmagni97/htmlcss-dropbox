@@ -87,6 +87,7 @@ body {
 .SelectionBusiness{
     margin-top: 150px;
     margin-left: 25%;
+    margin-right: 25%;
 }
 .Button{
     display: flex;
@@ -99,6 +100,22 @@ body {
 input{
     margin-right: 10px;
 }
+.Prodotti{
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: space-around;
+}
+.BaseBusiness{
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: calc((100% / 3) - 1rem);
+    height: 600px;   
+    border-style: solid;
+    border-color: #ededee;
+}
+
 
 
 
