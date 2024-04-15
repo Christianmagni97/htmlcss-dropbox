@@ -7,6 +7,7 @@ nav ul li{
     list-style-type: none;
     margin: 12px;
 } 
+/* Indice */
 header{
     display: flex;
     background-color: white;
@@ -18,6 +19,7 @@ header{
 body {
     font-family: 'Open Sans';
 }
+/* Parte destra-sinistra indice */
 .LeftNav, .RightNav{
     display: flex;
     margin-left: 10px;
@@ -31,50 +33,74 @@ body {
 #Touch{
     background-color: #0061ff;
     width: 80px;
-    height: 25px;
+    height: 40px;
     border: none;
     color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+/* Inizio titolo, testi, immagini iniziali */
 .PropostaCliente{
-    height: 75vh;
+    height: 70vh;
     background-color: #b4d0e7;
 }
 #Title-PropostaCliente{
-    font-size: 65px;
-    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    padding-top: 70px;
     text-align: left;
-    margin-left: 26%;
 }
-#Subtitles-PropostaCliente, #Iniziainqualsiasimomento{
-    margin-left: 26%;
-    margin-top: 30px;
+.Testi{
+    padding-left: 150px;
 }
 .Inizialaprovagratuita{
-    margin-top: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #0061ff;
     width: 200px;
-    height: 25px;
+    height: 40px;
     border: none;
     color: white;
-    margin-left: 26%;
-    text-align: center;
 }
 #Freccia{
-    margin-left: 26%;
-    padding-top: 10px;
-   font-size: 100px;
+   padding-top: 40px;
+   font-size: 50px;
 }
 #ImmagineTitolo{
-    flex-direction: row;
-    width: 600px;
-    height: auto;
-    margin-left: 50%;
+    padding-top: 30px;
+    width: 800px;
 }
 .Action{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+#Iniziainqualsiasimomento{
+    margin-top: 20px;
+}
+/* Inizio seconda parte main */
+.SelectionBusiness{
+    margin-top: 150px;
+    margin-left: 25%;
+}
+.Button{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+#secondo{
+    margin-left: 90px;
+}
+input{
+    margin-right: 10px;
+}
+
+
 
 
 
