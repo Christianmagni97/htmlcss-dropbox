@@ -161,7 +161,7 @@ input{
     border-color: #ededee;
 }
 /*Inizio impostazione per tabella */
-.InternalTable{
+.InternalTable, .InternalTable2{
     margin-left: 20px;
     margin-top: 30px;
 }
@@ -184,7 +184,7 @@ input{
     color: white;
     font-size: 14px;
 }
-.SubtitlesTable, .SubtitlesTable2> p{
+.SubtitlesTable, .SubtitlesTable2, .InternalTable2> p{
     margin-top: 20px;
     font-size: 14px;
 }
@@ -203,6 +203,10 @@ hr{
 .SubtitlesTable2> p> i{
     color: #0061ff;
     margin-top: 10px;
+}
+/*Inizio impostazione per seconda tabella */
+.TableCenter2{
+    display: flex;
 }
 
 
