@@ -131,7 +131,6 @@ input{
     height: 900px;   
     border-style: solid;
     border-color: #ededee;
-    
 }
 /*Seconda Tabella*/
 .PreTable2{
@@ -160,6 +159,13 @@ input{
     height: 200px;   
     border-style: solid;
     border-color: #ededee;
+}
+.InternalTable{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#Price{
+    margin-top: 20px;
 }
 
 
