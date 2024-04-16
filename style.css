@@ -1,3 +1,4 @@
+/* Impostazioni generali */
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,13 @@ nav ul li{
     list-style-type: none;
     margin: 12px;
 } 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: sans-serif;
+}
+/* Fine Impostazioni generali */
 /* Indice */
 header{
     display: flex;
@@ -15,12 +23,6 @@ header{
     height: 100px;
     align-items: center;
     justify-content: space-between;
-}
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-h1{
-    font-family: sans-serif;
 }
 /* Parte destra-sinistra indice */
 .LeftNav, .RightNav{
@@ -43,6 +45,7 @@ h1{
     align-items: center;
     justify-content: center;
 }
+/* Fine Indice */
 /* Inizio titolo, testi, immagini iniziali */
 .PropostaCliente{
     height: 70vh;
@@ -57,17 +60,6 @@ h1{
 }
 .Testi{
     padding-left: 150px;
-}
-.Inizialaprovagratuita{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0061ff;
-    width: 200px;
-    height: 40px;
-    border: none;
-    color: white;
 }
 #Freccia{
    padding-top: 40px;
@@ -206,19 +198,8 @@ hr{
 .TableCenter2, .Box{
     display: flex;
 }
-#Immage-Box{
-    width: 450px;
-    height: auto;
-}
-.Subtitle-Box> p{
-    font-size: 14px;
-    margin-top: 10px;
-    margin-left: 40px;
-}
-.Subtitle-Box> h3{
-    margin-top: 30px;
-    margin-left: 40px;
-}
+/*Fine impostazione per seconda tabella */
+/*Inizio tasti*/
 .Trovaunpartner{
     display: flex;
     align-items: center;
@@ -231,6 +212,76 @@ hr{
     margin-left: 40px;
     margin-top: 30px;
 }
+.Inizialaprovagratuita{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0061ff;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: white;
+}
+/* Fine tasti*/
+/* Box */
+#Immage-Box{
+    width: 550px;
+    height: auto;
+}
+.Subtitle-Box> p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.Subtitle-Box> h3{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+/* Fine Box */
+/* Box 2 */
+.Box2{
+    margin-top: 120px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.Ciao{
+    display: flex;
+}
+.TableCenter4{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: calc(100% / 3) ;
+    height: 500px;   
+    
+}
+/*Dimensioni immagini*/
+#ImmageTable{
+    height: 45%;
+}
+#ImmageTable2{
+    width: 280px;
+    align-self: center;
+}
+#ImmageTable3{
+    width: 97%;
+    align-self: center;
+}
+/*Testi Dropbox*/
+.TextTableDropBox> p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.TextTableDropBox{
+    text-align: center;
+}
+
+
+
+
+
 
 
 
