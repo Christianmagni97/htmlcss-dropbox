@@ -87,8 +87,8 @@ h1{
     margin-top: 20px;
 }
 /* Inizio seconda parte main */
-.SelectionBusiness{
-    margin-top: 150px;
+.SelectionBusiness, .Box{
+    margin-top: 120px;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -149,8 +149,7 @@ input{
     margin-top: 60px;
 }
 .BaseTable4{
-    display: flex;
-    
+    display: flex; 
 }
 .TableCenter2{
     display: flex;
@@ -185,12 +184,11 @@ input{
     font-size: 14px;
 }
 .SubtitlesTable, .SubtitlesTable2, .InternalTable2> p{
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 14px;
 }
 .SubtitlesTable> span{
     text-decoration: underline;
-   
 }
 hr{
     width: 30%;
@@ -200,14 +198,41 @@ hr{
 .SubtitlesTable2{
     margin-top: 70px;
 }
-.SubtitlesTable2> p> i{
+.SubtitlesTable2 > p> i{
     color: #0061ff;
     margin-top: 10px;
 }
 /*Inizio impostazione per seconda tabella */
-.TableCenter2{
+.TableCenter2, .Box{
     display: flex;
 }
+#Immage-Box{
+    width: 450px;
+    height: auto;
+}
+.Subtitle-Box> p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.Subtitle-Box> h3{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.Trovaunpartner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
 
 
 
