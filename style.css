@@ -247,6 +247,7 @@ hr{
 }
 .Ciao{
     display: flex;
+    flex-wrap: wrap; 
 }
 .TableCenter4{
     margin-top: 60px;
@@ -255,7 +256,13 @@ hr{
     background-color: white;
     width: calc(100% / 3) ;
     height: 500px;   
-    
+}
+.TableCenter5{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: calc(100% / 3) ;
+    height: 500px;   
 }
 /*Dimensioni immagini*/
 #ImmageTable{
@@ -269,6 +276,7 @@ hr{
     width: 97%;
     align-self: center;
 }
+/*Fine Dimensioni immagini*/
 /*Testi Dropbox*/
 .TextTableDropBox> p{
     margin-top: 20px;
@@ -277,6 +285,7 @@ hr{
 .TextTableDropBox{
     text-align: center;
 }
+/*Fine Testi Dropbox*/
 
 
 
