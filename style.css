@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav ul li{
+ul li{
     list-style-type: none;
     margin: 12px;
 } 
@@ -23,6 +23,12 @@ header{
     height: 100px;
     align-items: center;
     justify-content: space-between;
+}
+/*Impostazioni Footer*/
+footer{
+    background-color: black;
+    width: 100%;
+    height: 450px;
 }
 /* Parte destra-sinistra indice */
 .LeftNav, .RightNav{
@@ -61,6 +67,11 @@ header{
 .Testi{
     padding-left: 150px;
 }
+.SubtitlesTable> hr{
+    width: 30%;
+    color: #ededee;
+    margin-top: 70px;
+}
 #Freccia{
    padding-top: 40px;
    font-size: 50px;
@@ -79,7 +90,7 @@ header{
     margin-top: 20px;
 }
 /* Inizio seconda parte main */
-.SelectionBusiness, .Box{
+.SelectionBusiness, .Box,.PiccoloBox{
     margin-top: 120px;
     margin-left: 25%;
     margin-right: 25%;
@@ -120,7 +131,7 @@ input{
     display: flex;
     background-color: white;
     width: calc((100% / 3) - 1rem);
-    height: 910px;   
+    height: 820px;   
     border-style: solid;
     border-color: #ededee;
 }
@@ -182,11 +193,6 @@ input{
 .SubtitlesTable> span{
     text-decoration: underline;
 }
-hr{
-    width: 30%;
-    color: #ededee;
-    margin-top: 70px;
-}
 .SubtitlesTable2{
     margin-top: 70px;
 }
@@ -245,7 +251,7 @@ hr{
     margin-left: 25%;
     margin-right: 25%;
 }
-.Ciao{
+.ContainerTableDropBoxBusiness{
     display: flex;
     flex-wrap: wrap; 
 }
@@ -286,6 +292,38 @@ hr{
     text-align: center;
 }
 /*Fine Testi Dropbox*/
+#TextBoxPiccolo{
+    margin-top: 40px;
+    color: #0061ff;
+    text-decoration: underline;
+}
+/*lista footer */
+.Liste{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.st1list{
+    color: white;
+    padding-top: 40px;
+}
+/* fine lista footer */
+
+footer> hr{
+    margin-top: 60px;
+    color: white;
+    width: 7%;
+    margin-left: 20%;
+}
+
+footer> p{
+    color: white;
+    margin-top: 40px;
+    margin-left: 20%;
+}
 
 
 
