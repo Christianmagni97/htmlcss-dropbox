@@ -17,7 +17,10 @@ header{
     justify-content: space-between;
 }
 body {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: sans-serif;
 }
 /* Parte destra-sinistra indice */
 .LeftNav, .RightNav{
@@ -71,7 +74,7 @@ body {
    font-size: 50px;
 }
 #ImmagineTitolo{
-    padding-top: 30px;
+    padding-top: 50px;
     width: 800px;
 }
 .Action{
@@ -130,7 +133,7 @@ input{
     border-color: #ededee;
     
 }
-/*Tabella*/
+/*Seconda Tabella*/
 .PreTable2{
     display: flex;
     background-color: white;
